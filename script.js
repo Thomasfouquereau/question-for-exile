@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             text: "Quel est le nom du système de gemmes dans Path of Exile 2 ?",
-            answer:  'gems'201,
+            answer: 201,
             explanation: "Le système de gemmes utilise des gemmes de compétence pour personnaliser les compétences des personnages."
         },
         {
@@ -54,12 +54,12 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             text: "Quel est le nom du moteur graphique utilisé dans Path of Exile 2 ?",
-            answer: 'Moteur graphique propriétaire' 1054,
+            answer:  1054,
             explanation: "Path of Exile 2 utilise un moteur graphique propriétaire développé par Grinding Gear Games."
         },
         {
             text: "Quel est le nom du système de ligues dans Path of Exile 2 ?",
-            answer: 'Système de ligues' 404,
+            answer: 404,
             explanation: "Le système de ligues permet aux joueurs d'explorer de nouvelles mécaniques et défis à chaque saison."
         }
     ];
@@ -198,7 +198,7 @@ function toggleWiki() {
     if (wikiIsOpen) {
         wikiContent.style.display = 'none';
     } else {
-        wikiContent.style.display = 'block';
+        wikiContent.style.display = 'flex';
     }
 }
 wikiButton.addEventListener('click', toggleWiki);
@@ -219,23 +219,35 @@ document.addEventListener('DOMContentLoaded', () => {
     const tooltipButton1 = document.getElementById('tooltipBtn1');
     const tooltipButton2 = document.getElementById('tooltipBtn2');
     const tooltipButton3 = document.getElementById('tooltipBtn3');
+    const tooltipButton4 = document.getElementById('tooltipBtn4');
+    const tooltipButton5 = document.getElementById('tooltipBtn5');
     const tooltipContent = document.getElementById('tooltipContent');
 
     const tooltips = [
         {
             button: tooltipButton1,
-            title: 'Path of Exile 2',
-            content: 'Path of Exile 2 est un jeu d\'action-RPG développé par Grinding Gear Games. Il est la suite de Path of Exile et propose de nouvelles mécaniques de jeu, des graphismes améliorés et un monde étendu. sorti en accès anticipé le 6 déc. 2024.',
+            title: 'Guide 1 : Les Monstres dans Path of Exile 2',
+            content: 'Path of Exile 2 promet une expérience de jeu enrichie avec un nombre impressionnant de monstres. Comparé à Diablo 4, qui comptabilise environ 64 monstres (boss et élites inclus), Path of Exile 2 introduit un total de 820 monstres, comprenant 600 monstres de base, 100 boss, ainsi qu\'une mise à jour ajoutant 100 nouveaux monstres et 20 boss. Cela signifie que Path of Exile 2 propose 756 monstres de plus que Diablo 4, rendant l\'expérience de jeu plus variée et stimulante.',
         },
         {
             button: tooltipButton2,
-            title: 'Classes de personnages',
-            content: 'Path of Exile 2 propose 12 classes jouables, chacune avec ses propres mécaniques et arbre de compétences.',
+            title: 'Guide 2 : Les Gemmes et leurs Modifications',
+            content: 'Le système de gemmes dans Path of Exile 2 repose sur un système avancé de personnalisation des compétences. À sa sortie, le jeu propose 42 mods uniques de support de gemmes. Ces modifications permettent d\'adapter les compétences des personnages à divers styles de jeu. Concernant le système de gemmes lui-même, la réponse demandée est sûrement 201.',
         },
         {
             button: tooltipButton3,
-            title: 'Système de gemmes',
-            content: 'Le jeu utilise un système unique de gemmes pour personnaliser les compétences des personnages, avec 42 mods uniques de support à la sortie du jeu.',
+            title: 'Guide 3 : Les Classes et le Système de Ligues',
+            content: 'Actuellement, Path of Exile 2 propose 7 classes jouables, mais il est prévu que le jeu en propose 12 au total à sa sortie officielle. De plus, le système de ligues joue un rôle central en renouvelant régulièrement le contenu et les défis proposés aux joueurs. Ce système de ligues, qui change tous les trois mois, offre une rejouabilité infinie. La réponse demandée est sûrement 404.',
+        },
+        {
+            button: tooltipButton4,
+            title: 'Guide 4 :  Les Armes et l\'Évolution du Jeu',
+            content: 'Dans Path of Exile 2, les joueurs ont accès à 15 types d\'armes différents, ce qui permet une grande diversité dans la construction des personnages. En termes d\'évolution, la première version de Path of Exile est sortie en 2013. L\'extension inaugurale du jeu, nommée "The Awakening", a vu le jour en 2015. Chaque extension et mise à jour a contribué à enrichir le contenu du jeu et à diversifier ses mécaniques.',
+        },
+        {
+            button: tooltipButton5,
+            title: 'Guide 5 : Le Moteur Graphique et la Durée des Saisons',
+            content: 'Path of Exile 2 fonctionne avec un moteur graphique propriétaire développé par Grinding Gear Games. Ce moteur permet des graphismes améliorés et une meilleure optimisation des performances. La réponse demandée pour le moteur graphique est sûrement 1054. En ce qui concerne les saisons, chaque cycle dure généralement trois mois, offrant ainsi aux joueurs de nouvelles opportunités d\'exploration et de progression.',
         }
     ];
 

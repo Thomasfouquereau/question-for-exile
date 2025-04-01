@@ -35,6 +35,19 @@ body {
     margin-left: 20px;
 }
 
+.wiki-close-button{
+    background-color: #af4c4c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
 .title {
     color: #333;
     margin-bottom: -15px;
@@ -131,14 +144,17 @@ button:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
-    max-width: 800px;
-    height: 50%;
+    height: auto;
+    min-height: 500px;
     padding: 20px;
     background-color: white;
-    border-radius: 8px;
+    border-radius: 10px ;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     z-index: 1000;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .ps {
@@ -147,8 +163,27 @@ button:hover {
 }
 
 #tooltipContent {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333;
     padding: 10px;
     border-radius: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
+}
+
+.tooltip-buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 0 0 10px 10px ;
 }
