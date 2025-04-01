@@ -106,10 +106,10 @@ document.addEventListener('DOMContentLoaded', () => {
             finalMessage.className = 'final-message';
     
             if (correctAnswers > 5) {
-                finalMessage.textContent = `Félicitations ! Vous avez terminé le questionnaire avec ${correctAnswers} bonnes réponses sur ${totalQuestions}.`;
+                finalMessage.textContent = `Félicitations ! Vous avez terminé le questionnaire avec ${correctAnswers} bonnes réponses sur ${totalQuestions}. poisson d avril ! tu n'auras pas de clef connard !`;
                 finalMessage.classList.add('success');
             } else {
-                finalMessage.textContent = `Vous avez terminé le questionnaire avec ${correctAnswers} bonnes réponses sur ${totalQuestions}. Essayez de faire mieux la prochaine fois !`;
+                finalMessage.textContent = `Vous avez terminé le questionnaire avec ${correctAnswers} bonnes réponses sur ${totalQuestions}. Essayez de faire mieux la prochaine fois ! tu n'auras pas de clef connard !`;
                 finalMessage.classList.add('failure');
             }
     
@@ -159,11 +159,11 @@ document.addEventListener('DOMContentLoaded', () => {
             resultElement.textContent = 'Veuillez entrer un nombre valide.';
             resultElement.classList.add('error');
         } else if (userAnswer === correctAnswer) {
-            resultElement.textContent = 'Bravo ! C\'est la bonne réponse.';
+            resultElement.textContent = 'Bravo ! C\'est la bonne réponse connard !.';
             resultElement.classList.add('correct');
             correctAnswers++; // Incrémenter les bonnes réponses
         } else {
-            resultElement.textContent = `Désolé, ce n'est pas correct. La bonne réponse est ${correctAnswer}.`;
+            resultElement.textContent = `Désolé, ce n'est pas correct. La bonne réponse est ${correctAnswer} connard !.`;
             resultElement.classList.add('incorrect');
             incorrectAnswers++; // Incrémenter les mauvaises réponses
 
