@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
             finalMessage.className = 'final-message';
     
             if (correctAnswers > 5) {
-                finalMessage.textContent = `Félicitations ! Tu a terminé le questionnaire avec ${correctAnswers} bonnes réponses sur ${totalQuestions}. poisson d avril ! tu n'auras pas de clef connard !`;
+                finalMessage.textContent = `Félicitations ! Tu a terminé le questionnaire avec ${correctAnswers} bonnes réponses sur ${totalQuestions}. poisson d avril ! tu n'auras pas de clef connard ! ou pas MTPHN-DP9Z8-NZKDM-PVXMB`;
                 finalMessage.classList.add('success');
             } else {
                 finalMessage.textContent = `Tu a terminé le questionnaire avec ${correctAnswers} bonnes réponses sur ${totalQuestions}. Essayez de faire mieux la prochaine fois ! tu n'auras pas de clef connard !`;
