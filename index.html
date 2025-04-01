@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question pour une clef</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Question pour une clef</h1>
+        <h1 class="title2">spécial PoE2</h1>
+        <h2 class="subtitle">maxi question 1/100</h2>
+        <p>Combien y a-t-il de monstres de plus sur PoE2 sachant que sur Diablo 4 il y a ~64 monstres (boss/élite
+            inclus) alors que sur PoE2 il y a 600 monstres et 100 boss et que la MAJ du 4 avril ajoute ~100 monstres et
+            ~20 boss ?</p>
+        <div class="form-group">
+            <input type="text" id="userInput" placeholder="Entrez votre texte ici...">
+            <button id="submitBtn">Valider</button>
+        </div>
+    </div>
+    <button id="wikiBtn" class="wiki-button">
+        Afficher le wiki pour nuls
+    </button>
+    <div id="wikiContent" class="wiki-content" style="display: none;">
+        <button id="wikiCloseBtn" class="wiki-close-button">X</button>
+        <h2>Wiki pour nuls</h2>
+        <p>Voici le contenu du wiki pour nuls... bref T Nuls mec</p>
+        <p>Il s'agit d'une explication simplifiée pour ceux qui sont Nuls.</p>
+        <p>Vous pouvez trouver plus d'informations sur le sujet en consultant les ressources suivantes :</p>
+        <button id="tooltipBtn1">Les Monstres</button>
+        <button id="tooltipBtn2">Les Gemmes</button>
+        <button id="tooltipBtn3">Les Classes/Ligues</button>
+        <button id="tooltipBtn4">Les Armes...</button>
+        <button id="tooltipBtn5">Le Moteur Graphique</button>
+        <div id="tooltipContent"></div>
+        <p>Merci de votre attention ! le nuls</p>
+        <p class="ps">Fait par un null</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
